@@ -19,8 +19,17 @@ border-radius: 1px;
 overflow:auto;
 }
 
-
 h2 {
     color:#4aaaa5;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: gray;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+ }
