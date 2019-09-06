@@ -1,3 +1,13 @@
+.header {
+  width: 100%;
+  height:150px;
+  top: 0 ;
+  background-color: white;
+  margin-top: -25px;
+}
+
+
+
 .title {
   width: 320px;
   padding: 10px;
@@ -39,6 +49,8 @@ h1 {
 
 body {
     background-image: url("assets/images/interlaced.png");
+    margin: 0;
+    padding: 0;
   }
 
 img {
