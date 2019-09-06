@@ -7,7 +7,30 @@
   text-align: center;
   vertical-align: middle;
   position: absolute;
+  left: 277px;
+  top: 75px;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  position:relative;
+  top:10px;
+ 
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: white;
+}
+
 
 h1 {
   color:white;
@@ -44,11 +67,24 @@ margin: auto;
 background: white;
 padding: 10px;
 border-radius: 1px;
-  box-shadow: 0px 0px 0px 3px rgba(0,0,0,0.3);  
+border-color:gray;
 overflow:auto;
 position: relative;
-top:90px;
+top:97px;
+overflow:hidden;
 }
+
+.About-Me {
+    font-size:32px ;
+    
+    color:#4aaaa5;
+    padding-left:80px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 20px;
+    position:relative;
+    left:40px;
+}
+
 
 h1 h2 {
     color:#4aaaa5;
@@ -75,22 +111,3 @@ p {
     border-top: 8px solid #4aaaa5;
  }
 
- ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: right;
-  position:relative;
-  top:10px;
- 
-}
-
-li a {
-  display: block;
-  padding: 8px;
-  background-color: white;
-}
