@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  height:150px;
+  height:181px;
   top: 0 ;
   background-color: white;
   margin-top: -25px;
@@ -71,6 +71,16 @@ hr {
 
 }
 
+.About-Me {
+  font-size:32px ;
+  color:#4aaaa5;
+  padding-left:80px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  padding: 20px;
+  position:relative;
+  left:40px;
+}
+
 .content1 {
 width:960px;
 border: 1px solid gray;
@@ -82,20 +92,11 @@ border-radius: 1px;
 border-color:gray;
 overflow:auto;
 position: relative;
-top:97px;
+top:150px;
 overflow:hidden;
 }
 
-.About-Me {
-    font-size:32px ;
-    
-    color:#4aaaa5;
-    padding-left:80px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 20px;
-    position:relative;
-    left:40px;
-}
+
 
 
 h1 h2 {
@@ -106,11 +107,39 @@ h1 h2 {
 
 h4 {
   font-family: 'Georgia', Times, Times New Roman, serif;
+  color: gray;
+  opacity: .5;
 }
-  
+
+.Links {
+.link { color: #FF0000; } /* CSS link color (red) */
+.link:hover { color: #00FF00; } /* CSS link hover (green) */
+}
+
 p {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
 
 .footer {
     position: fixed;
