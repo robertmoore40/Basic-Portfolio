@@ -4,6 +4,8 @@
   top: 0 ;
   background-color: white;
   margin-top: -25px;
+  border-color:#777777;
+  border: 1px;
 }
 
 
@@ -126,7 +128,7 @@ h4 {
   border-width: 1px;
   border-color: black;
   top:130px;
-  font-size: 15px;
+  font-size: 12px;
   font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
