@@ -1,0 +1,45 @@
+#gallery{
+
+}
+div.img {
+    margin: 2px;
+    height: auto;
+    width: auto;
+    float: right;
+}
+div.img img {
+    width: 200px; /* what is the img size*/
+    height: 200px;
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+}
+
+/*
+ div.img a:hover img {
+ border: 1px solid #0000ff;
+ }*/
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 30px;
+}
+.descHead {
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: Tahoma;
+    font-size: 24px;
+    color: #323232;
+}
+
+.desc {
+    margin-right: 30px !important;
+    margin-bottom: 40px !important;
+    font-family: Tahoma;
+    font-size: 14px;
+    color: #323232;
+}
